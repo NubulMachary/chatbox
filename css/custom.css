@@ -1,0 +1,231 @@
+body{
+  overflow-x: hidden;;
+}
+.login_pannel{
+    width: 700px;
+    margin: 0 auto;
+    background: #eee;
+    margin-top: 80px;
+    border-left: 10px solid rgb(79, 79, 163);
+    border-right: 10px solid rgb(79, 79, 163);
+    text-align: center;
+    padding: 20px;
+}
+input[class='input']{
+    width: 250px;
+    margin-bottom: 10px;
+    text-align: center;
+
+
+}
+input[class='submit']{
+    width: 250px;
+    margin-bottom: 20px;
+}
+/* For chatbox */
+.chatbox{
+  width: 500px;
+  margin: 0 auto;
+  background: #eee;
+  margin-top: 50px;
+  padding: 20px;
+
+}
+.headings{
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  background: brown;
+}
+.mid{
+  width: 100%;
+  height: 500px;
+  background: green;
+  margin-bottom: 10px;
+  padding-bottom:10px;
+  overflow: scroll;
+}
+.footings{
+  width: 100%;
+
+}
+input[class='msg']{
+
+}
+input[class='send']{
+ width: 100%;
+}
+.send{
+	float: right;
+	position: relative;
+	top: -37px;
+	right: 8px;
+	border: 0px;
+	background: transparent;
+	color: #429fe8;
+	font-size: 16px;
+	font-weight: 400;
+	cursor: pointer;
+	font-size: 18px;
+}
+.single_msg{
+  border: 2px solid #76a6f2;
+  background: #76a6f2;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+
+}
+
+
+.single_msg_right{
+  border: 2px solid #5add8d;
+  background:  #5add8d;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70%;
+  height: auto;
+  margin-bottom: 10px;
+  overflow: hidden;
+  float: right;
+
+}
+.message_box{
+  height: auto;
+  margin-bottom: 10px;
+
+}
+.send_btn{
+  position: absolute;
+}
+.users_name{
+  margin-top: 10px;
+    margin-bottom: 30px;
+}
+.back svg{
+  transition: 0.5s;
+}
+.back:hover svg{
+  fill: #d12b55;
+  transition: 0.5s;
+}
+.preload svg{
+  fill: #6191dd;
+  transition: 0.5s;
+}
+.preload:hover svg{
+  transition: 0.5s;
+  fill: #d12b55;
+
+}
+.menu svg{
+  transition: 0.5s;
+}
+.menu:hover svg{
+  transition: 0.5s;
+  fill: #d12b55;
+}
+.msg_nd{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    background: #fff;
+    position: relative;
+    top: 140px;
+}
+
+.signed_in{
+  width: 100%;
+  z-index: 99999;
+  background: #fff;
+}
+.head_color{
+  z-index: 999999;
+  top: 0px;
+  position: relative;
+  width: 100%;
+  background: #eee;
+  height: auto;
+
+}
+#show{
+  height: auto;
+}
+.message_box input[type='text']{
+  border: 4px solid #59ccf2;
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* Start of Move to TOP Button */
+.scrollToTop{
+	width:50px;
+	height:50px;
+	text-align:center;
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	bottom: 20px;
+	right:40px;
+	display:none;
+  background: #e19ce2;
+  border-radius: 10px;
+  transition: 1s;
+}
+.scrollTop svg{
+    transition: 1s;
+}
+.scrollToTop:hover svg{
+  transition: 1s;
+	text-decoration:none;
+  fill:red;
+}
+/* End */
+
+/* For small screen size */
+@media only screen and (max-width: 800px) {
+   .login_pannel{
+    width: auto;
+   }
+
+    input[class='input']{
+        width: 100%;
+
+
+    }
+    input[class='submit']{
+        width: 100%;
+
+    }
+}
+/* index start from here*/
+.contacts_list{
+  width: 100%;
+  background: #eee;
+  padding: 5px;
+  text-transform: capitalize;
+  border-left: 8px solid #eee;
+  border-right: 8px solid #eee;
+  color: black;
+  transition: 0.5s;
+  margin-bottom: 5px;
+}
+.bapu a:hover{
+  text-decoration: none;
+
+}
+.bapu a:hover .contacts_list{
+  border-left: 8px solid green;
+  border-right: 8px solid green;
+    text-decoration: none;
+    color: green;
+    text-decoration: none;
+    transition: 0.5s;
+    background-color: #d2bbea;
+}

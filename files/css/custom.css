@@ -1,0 +1,168 @@
+@charset "UTF-8";
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family:"Gotham A", Gotham, "Gotham SSm A", "Gotham SSm B", "Gotham SSm", "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+}
+.div_pad{
+  padding: 20px;
+}
+.loaner{
+  width: 400px;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  padding: 30px;
+}
+button[class='button']{
+  padding: 5px;
+  border: 1px solid #4883c2;
+  transition: 0.5s;
+}
+
+button[class='button']:hover{
+  background: #4883c2;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.center{
+  text-align: center;
+}
+.center.color-white{
+  color: #fff;
+}
+
+.center.color-white.size-h1{
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.center.color-white.size-h2{
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.center.color-white.size-h3{
+  font-weight: bold;
+  font-size: 20px;
+}
+.center.color-danger{
+  color:#e74c3c;
+}
+
+.center.color-success{
+  color: #3498db;
+}
+.header{
+  background: #33f;
+}
+.header p{
+  padding: 30px;
+}
+.login_area{
+  width: 400px;
+  height: auto;
+  background: rgba(0,0,0,0.5);
+  margin: 0 auto;
+  padding: 10px;
+  top: 100px !important;
+}
+input[class='input']{
+  width: 100%;
+  padding: 5px;
+  color: #3498db;
+  border: 1px solid transparent;
+  text-align: center;
+}
+
+input[class='submit']{
+  width: 100%;
+  padding: 5px;
+  color: #fff;
+  border: 1px solid  #2ecc71;
+  background: #2ecc71;
+  transition: 0.5s;
+}
+
+input[class='submit']:hover{
+  transition: 0.5s;
+  background:  #3498db;
+  color: #fff;
+}
+select[class='select']{
+  width: 100%;
+  padding: 5px;
+  text-align-last: center;
+}
+
+.login_area a{
+  color: #fff;
+  padding-left: 20px;
+}
+.login_area a:hover{
+  color: #2ecc71;
+}
+
+/*  Start of Navigation bar */
+
+.admin_navbar{
+
+    float: left;
+  background: #34495e;
+  width: 230px;
+  height: 100vh;
+  position: fixed;
+
+}
+.admin_navbar ul li{
+  list-style-type: none;
+}
+
+.admin_navbar ul li a{
+  display: block;
+  padding: 10px;
+  color: #fff;
+  transition: 0.5s;
+  padding-left: 50px;
+  text-decoration: none;
+}
+
+.admin_navbar ul li a:hover{
+  transition: 0.5s;
+  background: #000;
+
+}
+
+/* End of Navigation bar*/
+
+.admin_header{
+  background: #34495e;
+  color: #fff;
+  padding: 5px;
+  padding-left: 230px;
+}
+.classic{
+  padding-left: 230px;
+}
+.add{
+  height: auto;
+  width: 300px;
+  background: rgba(0,0,0,0.5);
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 20px;
+}
+.members_details{
+  padding: 0 50px;
+}
+.payment_gateway{
+  background: rgba(0, 0, 0, 0.5);
+  width: 500px;
+  margin: 0 auto;
+  height: auto;
+  padding: 20px;
+  margin-top: 50px;
+}
